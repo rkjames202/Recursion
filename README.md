@@ -6,7 +6,7 @@ Solutions to two of the assignments in [@TheOdinProject's](https://github.com/Th
 
 ## Assignment 1
 
-The first assignment demonstrates finding *n* numbers in the  fibonacci both iteratively and and recursively.
+The first assignment demonstrates finding *n* numbers in the fibonacci sequence both iteratively and and recursively.
 
 ## Assignment 2 
 
