@@ -6,7 +6,7 @@
  * @returns - Sorted array of number
  */
 function mergeSort(arr) {
-  // Array is size 1? Consider it sorted
+  // Array is of size 1? Consider it sorted
   if (arr.length == 1) {
     return arr;
   }
@@ -17,7 +17,7 @@ function mergeSort(arr) {
   // Get left side of array
   let leftArr = arr.slice(0, mid);
 
-  // Get right side of array, default second parameter is last element in array
+  // Get right side of array, default second parameter for slice() is last element in array
   let rightArr = arr.slice(mid);
 
   return merge(mergeSort(leftArr), mergeSort(rightArr));
